@@ -1,9 +1,8 @@
 # Google-Fiber-Call-Analysis
-This project analyzes customer support data for Google Fiber to identify trends in repeat callers. By consolidating multi-market data using SQL and visualizing it in Tableau, the project reveals which problem types drive repeat volume and provides actionable insights to improve First Contact Resolution (FCR).
-**Data Engineering & Business Intelligence Project**
+**Business Intelligence Project**
 
 ## Project Overview
-This project analyzes fictionalized customer support data for Google Fiber to identify trends in repeat callers. The objective is to provide stakeholders with insights into repeat caller volumes across different markets and problem types to improve operational optimization.
+This project analyzes customer support data for Google Fiber to identify trends in repeat callers. By consolidating multi-market data using SQL and visualizing it in Tableau, the project reveals which problem types drive repeat volume and provides actionable insights to improve First Contact Resolution (FCR).
 
 ## Project Dashboard
 [**Click here to view the Interactive Tableau Dashboard**](https://public.tableau.com/app/profile/sharat.r6013/viz/Fiber_Final/Story1)
@@ -22,4 +21,16 @@ This project analyzes fictionalized customer support data for Google Fiber to id
 * **Peak Volume**: March saw the highest call volume in Q1 with **24,453** initial contacts.
 * **Monday Surge**: Mondays are the busiest day for first contacts, accounting for **18.57%** of total weekly volume.
 * **Primary Driver**: **Type 5 (Internet & WiFi)** is the leading cause of repeat calls across all markets, representing nearly **70%** of volume in Market 3.
+## 📂 Repository Structure
 
+```text
+├── Data/                 # Raw CSV data (Market 1, 2, 3)
+├── Documents/            # Project planning & requirements
+│   ├── Strategy_Document.docx
+│   ├── Project_Requirements_Document.docx
+│   └── Stakeholder_Requirements_Document.docx
+├── Presentation/         # Executive summary for stakeholders
+│   └── Fiber_Final.pptx
+├── SQL/                  # BigQuery ETL scripts
+│   └── merge_market_data.sql
+└── README.md             # Project overview and insights

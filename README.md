@@ -3,7 +3,10 @@ This project analyzes customer support data for Google Fiber to identify trends 
 **Data Engineering & Business Intelligence Project**
 
 ## Project Overview
-This project analyzes fictionalized customer support data for Google Fiber to identify trends in repeat callers. [cite_start]The objective is to provide stakeholders with insights into repeat caller volumes across different markets and problem types to improve operational optimization.
+This project analyzes fictionalized customer support data for Google Fiber to identify trends in repeat callers. The objective is to provide stakeholders with insights into repeat caller volumes across different markets and problem types to improve operational optimization.
+
+## Project Dashboard
+[**Click here to view the Interactive Tableau Dashboard**](https://public.tableau.com/app/profile/sharat.r6013/viz/Fiber_Final/Story1)
 
 ## Technical Workflow
 1. **Requirement Gathering**: Identified stakeholders and established KPIs centered on "First Contact Resolution" to reduce call volume and increase customer satisfaction.
@@ -19,5 +22,4 @@ This project analyzes fictionalized customer support data for Google Fiber to id
 * **Peak Volume**: March saw the highest call volume in Q1 with **24,453** initial contacts.
 * **Monday Surge**: Mondays are the busiest day for first contacts, accounting for **18.57%** of total weekly volume.
 * **Primary Driver**: **Type 5 (Internet & WiFi)** is the leading cause of repeat calls across all markets, representing nearly **70%** of volume in Market 3.
-## Project Dashboard
-[**Click here to view the Interactive Tableau Dashboard**](https://public.tableau.com/app/profile/sharat.r6013/viz/Fiber_Final/Story1)
+
